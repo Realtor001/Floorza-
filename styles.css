@@ -1,0 +1,27 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body,
+html {
+    padding: 0;
+    margin: 0
+}
+
+.nav {
+    display: flex;
+    padding: 30px 10%;
+    font-size: 20px;
+    border-bottom: 2px solid brown;
+}
+
+.nav>.title {
+    flex-grow: 10;
+    /* default 0 */
+    font-weight: bold;
+}
+
+.nav .item {
+    flex-grow: 1;
+    text-align: right;
+}
